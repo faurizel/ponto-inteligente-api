@@ -105,7 +105,8 @@ public class Funcionario implements Serializable{
 	public void setValorHora(BigDecimal valorHora) {
 		this.valorHora = valorHora;
 	}
-
+	
+	//@Column(name ="qtd_horas_trabalhada_dia", nullable = false )
 	public Float getQtdHorasTrabalhadaDia() {
 		return qtdHorasTrabalhadaDia;
 	}
